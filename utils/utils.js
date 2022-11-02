@@ -9,3 +9,6 @@ export const navigationRoutes = [
     "newsletter",
     "rss",
   ];
+
+export const homeProfileImage = "";
+
