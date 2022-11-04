@@ -90,7 +90,7 @@ export default function TopNavbar() {
             variants={popUp}
             className="relative hidden sm:inline-flex mr-3"
           >
-            <h1 className="font-sarina text-xl">JS</h1>
+            <h1 className="font-sarina text-xl">JF</h1>
           </motion.a>
           <motion.p
             initial="hidden"
@@ -101,7 +101,7 @@ export default function TopNavbar() {
             }}
             className="absolute sm:!hidden w-fit left-0 right-0 mx-auto flex justify-center  text-base font-sarina"
           >
-            Jatin Sharma
+            Jason Frederick
           </motion.p>
         </div>
       </Link>

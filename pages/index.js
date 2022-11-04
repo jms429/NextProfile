@@ -6,7 +6,8 @@ import {
   opacityVariant,
   popUp,
 } from "@content/FramerMotionVariants";
-import { homeProfileImage } from "@utils/utils"; // not created yet
+// import { homeProfileImage } from "@utils/utils"; // not created yet
+import homeProfileImage from "public/Logoi.png"
 import { motion } from "framer-motion";
 import { FiDownload } from "react-icons/fi";
 import Ripples from "react-ripples";
@@ -15,6 +16,7 @@ import pageMeta from "@content/meta";
 import { getPinnedSkills } from "@lib/dataFetch";
 import SkillSection from "@components/Home/SkillsSection";
 import AnimatedHeading from "@components/FramerMotion/AnimatedHeading";
+import Contact from "@components/Contact";
 
 export default function Home({ blogs, skills }) {
   return (
@@ -37,15 +39,15 @@ export default function Home({ blogs, skills }) {
           <div className="w-full relative mx-auto flex flex-col items-center gap-10">
             <motion.div
               variants={popUp}
-              className="relative w-44 h-44 xs:w-52 xs:h-52 flex justify-center items-center rounded-full p-3 before:absolute before:inset-0 before:border-t-4 before:border-b-4 before:border-black before:dark:border-white before:rounded-full before:animate-photo-spin"
+              className="relative w-44 h-44 xs:w-52 xs:h-52 flex justify-center items-center rounded-full before:absolute before:inset-0 before:border-t-4 before:border-b-4 before:border-black before:dark:border-white before:rounded-full before:animate-photo-spin"
             >
               <Image
                 src={homeProfileImage}
-                className="rounded-full shadow filter saturate-0"
-                width={400}
-                height={400}
+                // className="rounded-full shadow filter saturate-0"
+                width={800}
+                height={800}
                 alt="cover Profile Image"
-                quality={75}
+                quality={100}
                 priority={true}
               />
             </motion.div>
@@ -56,13 +58,13 @@ export default function Home({ blogs, skills }) {
                   variants={opacityVariant}
                   className="text-5xl lg:text-6xl font-bold font-sarina"
                 >
-                  Jatin Sharma
+                  Jason Frederick
                 </motion.h1>
                 <motion.p
                   variants={opacityVariant}
                   className="font-medium text-xs md:text-sm lg:text-lg text-gray-500"
                 >
-                  React Developer, Competitive Programmer
+                  Fullstack Developer
                 </motion.p>
               </div>
 
@@ -71,7 +73,7 @@ export default function Home({ blogs, skills }) {
                 className=" text-slate-500 dark:text-gray-300 font-medium text-sm md:text-base text-center"
               >
                 I am currently perusing my Bachelor Degree in Computer Science.
-                I can code in Python, C, C++, etc.
+                I can code in Python, Java, Javascript, etc.
               </motion.p>
             </div>
 
@@ -88,8 +90,10 @@ export default function Home({ blogs, skills }) {
             </motion.div>
           </div>
         </motion.section>
+        <SkillSection skills={skills} />
+      <Contact />
       </div>
-      <SkillSection skills={skills} />
+
     </>
   );
 }

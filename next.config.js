@@ -22,10 +22,16 @@ module.exports = withBundleAnalyzer(
     },
     reactStrictMode: true,
     images: {
+      remotePatterns: [
+        {
+          protocol: "https",
+          hostname: "**",
+        },
+      ],
       domains: [
         "cdn.buymeacoffee.com",
         "res.cloudinary.com",
-        "imgur.com",
+        'imgur.com',
         "i.imgur.com",
         "cutt.ly",
         "activity-graph.herokuapp.com",

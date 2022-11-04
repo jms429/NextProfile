@@ -10,5 +10,6 @@ export const navigationRoutes = [
     "rss",
   ];
 
-export const homeProfileImage = "";
+
+  // export const homeProfileImage = "/public/Logoi.png";
 
