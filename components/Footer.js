@@ -34,7 +34,7 @@ export default function Footer({ setShowQR, showQR }) {
 
         <section className="grid grid-cols-3 gap-10">
           <div className="flex flex-col gap-4 capitalize">
-            {navigationRoutes.slice(0, 4).map((text, index) => {
+            {navigationRoutes.slice(0, 5).map((text, index) => {
               return (
                 <FooterLink key={index} id={index} route={text} text={text} />
               );
@@ -42,7 +42,7 @@ export default function Footer({ setShowQR, showQR }) {
           </div>
           <div className="flex flex-col gap-4 capitalize">
             {navigationRoutes
-              .slice(4, navigationRoutes.length)
+              .slice(0, 0, navigationRoutes.length)
               .map((route, index) => {
                 let text = route;
                 if (route === "rss") text = "RSS";
