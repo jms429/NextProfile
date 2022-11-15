@@ -12,13 +12,16 @@ module.exports = {
       inter: ["Inter", "sans-serif"],
       sarina: ["Sarina", "cursive"],
       barlow: ["Barlow", "sans-serif"],
+      permanent: ["Permanent", "sans-serif"],
       mono: ["monospace"],
     },
     extend: {
       colors: {
-        darkPrimary: "#181A1B",
+        darkPrimary: "#444444",
         darkSecondary: "#25282A",
-        darkWhite: "#f2f5fa",
+        darkWhite: "#ffc156",
+        darkRed: "#DA564D",
+        darkBlue: "#86ad8d"
       },
       listStyleType: {
         square: "square",

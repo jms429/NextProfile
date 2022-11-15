@@ -56,21 +56,28 @@ export default function Home({ blogs, skills }) {
               <div className="flex flex-col gap-1">
                 <motion.h1
                   variants={opacityVariant}
-                  className="text-5xl lg:text-6xl font-bold font-sarina"
+                  className="text-5xl lg:text-6xl font-bold font-permanent"
                 >
                   Jason Frederick
                 </motion.h1>
+                <div className="flex flex-row justify-center items-center gap-2">
                 <motion.p
                   variants={opacityVariant}
-                  className="font-medium text-xs md:text-sm lg:text-lg text-gray-500"
-                >
-                  Fullstack Developer
+                  className="font-medium text-xs bg-darkRed rounded-md px-2 md:text-sm lg:text-lg text-white">
+                  React/Native Developer
                 </motion.p>
+                <motion.p
+                  variants={opacityVariant}
+                  className="font-medium text-xs bg-darkBlue rounded-md px-2 md:text-sm lg:text-lg text-white">
+                   Django Developer
+                </motion.p>
+                </div>
+                
               </div>
 
               <motion.p
                 variants={opacityVariant}
-                className=" text-slate-500 dark:text-gray-300 font-medium text-sm md:text-base text-center"
+                className=" text-darkPrimary dark:text-gray-300 font-medium text-sm md:text-base text-center"
               >
                 I am currently perusing my Bachelor Degree in Computer Science.
                 I can code in Python, Java, Javascript, etc.
@@ -80,7 +87,7 @@ export default function Home({ blogs, skills }) {
             <motion.div className="rounded-md overflow-hidden" variants={popUp}>
               <Ripples className="w-full" color="rgba(0, 0, 0, 0.5)">
                 <button
-                  className="flex items-center gap-2 px-5 py-2 border rounded-md border-gray-500 dark:border-gray-400 select-none  hover:bg-gray-100 dark:hover:bg-neutral-800 outline-none"
+                  className="flex items-center gap-2 px-5 py-2 border- rounded-md border-gray-100 dark:border-gray-400 select-none  hover:bg-gray-100 dark:hover:bg-neutral-800 outline-none"
                   onClick={() => window.open("/resume")}
                 >
                   <FiDownload />

@@ -98,7 +98,7 @@ function FooterLink({ route, text }) {
 function NotPlaying() {
   return (
     <div className="flex items-center gap-2 flex-row-reverse sm:flex-row justify-between sm:justify-start">
-      <SiSpotify className="w-6 h-6" />
+      <SiSpotify className="w-6 h-6 text-black" />
       <div className="flex flex-col sm:flex-row sm:items-center sm:gap-3">
         <div className="font-semibold md:text-lg text-black dark:text-white">
           Not Playing

@@ -57,6 +57,14 @@ export default function Document() {
           type="font/woff2"
           crossOrigin="anonymous"
         />
+        {/* Permanent */}
+                <link
+          rel="preload"
+          href="/fonts/Perm/PermanentMarker-Regular.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
 
         {/* Tailwind CSS Typography  */}
         <link

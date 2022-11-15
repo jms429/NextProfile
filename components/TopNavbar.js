@@ -90,7 +90,7 @@ export default function TopNavbar() {
             variants={popUp}
             className="relative hidden sm:inline-flex mr-3"
           >
-            <h1 className="font-sarina text-xl">JF</h1>
+            <h1 className="font-permanent text-xl">JF</h1>
           </motion.a>
           <motion.p
             initial="hidden"

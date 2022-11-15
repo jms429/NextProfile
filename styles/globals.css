@@ -52,6 +52,13 @@
   font-display: swap;
   src: url(/fonts/Sarina/Sarina-400.woff2) format("woff2");
 }
+@font-face {
+  font-family: "Permanent";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url(/fonts/Perm/PermanentMarker-Regular.woff2) format("woff2");
+}
 
 body,
 html {
