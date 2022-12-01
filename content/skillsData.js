@@ -2,7 +2,7 @@ module.exports = [
     {
       name: "HTML",
       level: 100,
-      pinned: false,
+      pinned: true,
     },
     {
       name: "CSS",
@@ -15,12 +15,27 @@ module.exports = [
       pinned: true,
     },
     {
+      name: "Python",
+      level: 100,
+      pinned: true,
+    },
+    {
+      name: "Django",
+      level: 100,
+      pinned: true,
+    },
+    {
       name: "SASS",
       level: 80,
       pinned: false,
     },
     {
       name: "React.js",
+      level: 80,
+      pinned: true,
+    },
+    {
+      name: "React Native",
       level: 80,
       pinned: true,
     },

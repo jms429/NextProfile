@@ -11,8 +11,10 @@ import {
   SiGit,
   SiMysql,
   SiFirebase,
+  SiDjango,
 } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
+import { RiReactjsLine } from "react-icons/ri";
 import { useDarkMode } from "@context/darkModeContext";
 import * as WindowsAnimation from "@lib/windowsAnimation"; //-----> not created yet
 
@@ -67,6 +69,9 @@ function chooseIcon(title) {
     case "javascript":
       Icon = SiJavascript;
       break;
+    case "django":
+      Icon = SiDjango;
+      break;
     case "html":
       Icon = SiHtml5;
       break;
@@ -78,6 +83,9 @@ function chooseIcon(title) {
       break;
     case "react.js":
       Icon = FaReact;
+      break;
+    case "react native":
+      Icon = RiReactjsLine;
       break;
     case "tailwind css":
       Icon = SiTailwindcss;

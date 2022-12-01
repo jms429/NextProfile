@@ -13,7 +13,7 @@ import Ripples from "react-ripples";
 
 // initial State of the form
 const initialFormState = {
-  to_name: "Jatin Sharma",
+  to_name: "Jason Frederick",
   first_name: "",
   last_name: "",
   email: "",
@@ -89,7 +89,7 @@ export default function Form() {
               type="text"
               name="first_name"
               id="floating_first_name"
-              className="block py-2 mt-2 px-0 w-full text-sm text-white-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-white focus:outline-none focus:ring-0 focus:border-black peer"
+              className="block py-2 mt-2 px-0 w-full text-sm text-white-900 bg-transparent border-0 border-b-2 border-darkPrimary appearance-none dark:text-white dark:border-gray-600 dark:focus:border-white focus:outline-none focus:ring-0 focus:border-black peer"
               placeholder=" "
               required
               value={emailInfo.first_name}
@@ -102,7 +102,7 @@ export default function Form() {
             />
             <label
               htmlFor="floating_first_name"
-              className="peer-focus:font-medium absolute text-sm text-slate-400 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black dark:peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+              className="peer-focus:font-medium absolute text-sm text-darkPrimary dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black dark:peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
               First name
             </label>
@@ -115,7 +115,7 @@ export default function Form() {
               type="text"
               name="last_name"
               id="floating_last_name"
-              className="block py-2 mt-2 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-white focus:outline-none focus:ring-0 focus:border-black peer"
+              className="block py-2 mt-2 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-darkPrimary appearance-none dark:text-white dark:border-gray-600 dark:focus:border-white focus:outline-none focus:ring-0 focus:border-black peer"
               placeholder=" "
               required
               value={emailInfo.last_name}
@@ -128,7 +128,7 @@ export default function Form() {
             />
             <label
               htmlFor="floating_last_name"
-              className="peer-focus:font-medium absolute text-sm text-slate-400 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black dark:peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+              className="peer-focus:font-medium absolute text-sm text-darkPrimary dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black dark:peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
               Last name
             </label>
@@ -142,7 +142,7 @@ export default function Form() {
             type="email"
             name="email"
             id="floating_email"
-            className="block py-2 mt-2 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:dark:border-white focus:border-black peer"
+            className="block py-2 mt-2 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-darkPrimary appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:dark:border-white focus:border-black peer"
             placeholder=" "
             required
             value={emailInfo.email}
@@ -155,7 +155,7 @@ export default function Form() {
           />
           <label
             htmlFor="floating_email"
-            className="peer-focus:font-medium absolute text-sm text-slate-400 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black dark:peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+            className="peer-focus:font-medium absolute text-sm text-darkPrimary dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black dark:peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             Email address
           </label>
@@ -168,7 +168,7 @@ export default function Form() {
             type="subject"
             name="subject"
             id="floating_subject"
-            className="block py-2 mt-2 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-white focus:outline-none focus:ring-0 focus:border-black peer"
+            className="block py-2 mt-2 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-darkPrimary appearance-none dark:text-white dark:border-gray-600 dark:focus:border-white focus:outline-none focus:ring-0 focus:border-black peer"
             placeholder=" "
             required
             value={emailInfo.subject}
@@ -181,7 +181,7 @@ export default function Form() {
           />
           <label
             htmlFor="floating_subject"
-            className="peer-focus:font-medium absolute text-sm text-slate-400 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black dark:peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+            className="peer-focus:font-medium absolute text-sm text-darkPrimary dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black dark:peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             Subject
           </label>
@@ -193,7 +193,7 @@ export default function Form() {
           <textarea
             name="message"
             id="floating_message"
-            className="block py-2 mt-2 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-white focus:outline-none focus:ring-0  peer min-h-[100px] resize-y focus:border-black"
+            className="block py-2 mt-2 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-darkPrimary appearance-none dark:text-white dark:border-gray-600 dark:focus:border-white focus:outline-none focus:ring-0  peer min-h-[100px] resize-y focus:border-black"
             placeholder=" "
             required
             value={emailInfo.message}
@@ -206,7 +206,7 @@ export default function Form() {
           />
           <label
             htmlFor="floating_message"
-            className="peer-focus:font-medium absolute text-sm text-slate-400 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black dark:peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+            className="peer-focus:font-medium absolute text-sm text-darkPrimary dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black dark:peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             Message
           </label>

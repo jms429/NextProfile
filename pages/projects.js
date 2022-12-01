@@ -22,7 +22,7 @@ export default function Projects({ projects }) {
         <PageTop pageTitle="Projects">
           I've been making various types of projects some of them were basics
           and some of them were complicated. So far I've made{" "}
-          <span className="font-bold text-gray-600 dark:text-gray-200">
+          <span className="font-bold text-darkRed dark:text-gray-200">
             {projects.length}
           </span>{" "}
           projects.

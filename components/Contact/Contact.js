@@ -20,10 +20,10 @@ export default function Contact() {
 
         <AnimatedText
           variants={popUpFromBottomForText}
-          className="px-4 py-2 font-medium text-slate-400"
+          className="px-4 py-2 font-medium dark:text-slate-400"
         >
           Have a little something, something you wanna talk about? Please feel
-          free to get in touch anytime, whether for work or to just Hi 🙋‍♂️.
+          free to get in touch anytime, whether for work or to just Hi 🙋.
         </AnimatedText>
       </section>
 

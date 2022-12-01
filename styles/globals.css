@@ -87,7 +87,7 @@ pre::-webkit-scrollbar {
 }
 
 body.dark {
-  background-color: #181a1b;
+  background-color: #444444;
 }
 
 ::-webkit-scrollbar {

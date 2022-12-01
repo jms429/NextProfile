@@ -87,7 +87,7 @@ export default function Home({ blogs, skills }) {
             <motion.div className="rounded-md overflow-hidden" variants={popUp}>
               <Ripples className="w-full" color="rgba(0, 0, 0, 0.5)">
                 <button
-                  className="flex items-center gap-2 px-5 py-2 border- rounded-md border-gray-100 dark:border-gray-400 select-none  hover:bg-gray-100 dark:hover:bg-neutral-800 outline-none"
+                  className="flex items-center gap-2 px-5 py-2 border-3 rounded-md border-gray-100 dark:border-gray-400 select-none  hover:bg-gray-100 dark:hover:bg-neutral-800 outline-none"
                   onClick={() => window.open("/resume")}
                 >
                   <FiDownload />
